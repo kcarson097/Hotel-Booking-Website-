@@ -1,0 +1,36 @@
+<?php
+
+include("../connections/conn.php");
+header('Content-Type: application/json');
+include("../apisecurity/authenticatekey.php");//checks if api key is valid
+
+if($res['Valid'] == true){//valid key so api can run
+
+  //returns the cityID of the specified city
+  if(isset($_GET['location'])){
+    $name = $_GET['location'];
+    
+    $sql = "SELECT CityID FROM webdevproject_cities WHERE Name = $name ";
+    $result = $conn->query($sql);
+    
+    $final = array();
+
+    if(!$result){
+        echo $conn->error;   
+    }else{
+        while($row = $result->fetch_assoc()){ 
+          array_push($final,$row);
+        }
+    }
+    echo json_encode($final);
+
+    }
+}else{
+  echo "Invalid Api Key";
+}
+
+
+
+
+
+?>

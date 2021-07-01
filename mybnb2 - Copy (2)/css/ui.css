@@ -1,0 +1,676 @@
+
+.nav{
+  border-color: black;
+}
+.jumbotron{
+  background-image: url("https://images.unsplash.com/photo-1496950866446-3253e1470e8e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+  background-size: cover;
+  min-height: 550px;
+  background-position: center;
+  margin-bottom: 0;
+}
+
+.two{
+  background-image: url("https://images.unsplash.com/photo-1508672019048-805c876b67e2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1393&q=80");
+  background-size: cover;
+  min-height: 450px;
+  background-position: center;
+  margin-bottom: 0;
+
+}
+.special{
+  color: black;
+  
+}
+
+.searches{
+  width: 80%;
+  padding-left: 20%;
+  padding-top: 5%;
+}
+
+/* 3. Change option's color when the select menu is opened? */
+.bootstrap-select.btn-group .dropdown-menu>li>a {
+  color: green;
+}
+
+
+.text1{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  overflow:auto;
+}
+
+
+.text2{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  overflow:auto;
+  padding-top: 100px;
+}
+
+.text1 span{
+  background-color: rgba(0, 0, 0, 0.404);
+}
+
+.text2 span{
+  background-color: rgba(0, 0, 0, 0.404);
+}
+
+.textcards{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: small;
+  color: rgba(255, 255, 0, 0.473);
+}
+
+.searchbutton{
+  width: 60%;
+  border-radius: 25px;
+}
+
+#searchbar{
+  border-radius: 25px;
+  padding: 200px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Centered text */
+.textmain{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  background-size: cover;
+}
+
+.textmain span{
+  background-color:  rgba(0, 0, 0, 0.548) ;
+}
+
+.titles{
+  padding: 1% 0% 0% 1%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.titlesindex{
+  padding: 1% 0% 0% 2%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.staysimg{
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  
+}
+
+#footer{
+  background-color:#0275d8;
+  color: white;
+  margin-top: 5px;
+  padding: 10px;
+  text-align: right;
+}
+#footerlogin{
+  background-color:#0275d8;
+  color: white;
+  padding: 10px;
+  text-align: right;
+}
+
+
+
+@media screen and (max-width: 575px){
+  .dropdown{
+    padding-top: 10%;
+  }
+}
+
+
+.top-content{
+  padding-top: 1%;
+}
+
+.cards{
+  padding: 2%;
+  padding-left: 2%;
+  padding-top: 2%;
+  color: black;
+}
+
+
+
+#cardlink{
+  color: black;
+}
+
+#countrieslink{
+  color:white;
+}
+
+.col-4 footer{
+  text-align: center;
+}
+.propertyimg{
+  width: 100%;
+  padding: 1%;
+  height:600px
+  
+}
+
+.checked{
+  color: blue;
+}
+
+.textprop{
+  padding-left: 1%;
+}
+
+.propdetails{
+  padding-top: 1%;
+  padding-right: 1%;
+  padding-left: 1%;
+}
+
+.description{
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 1%;
+}
+
+#reservebutton{
+  padding-left: 1%;
+  padding-top: 1%;
+}
+
+.apps{
+  padding-left: 1%;
+}
+
+#filters{
+  padding-left: 5%;
+  padding-top: 15%;
+}
+
+#dropdowns{
+  width: 55px;
+}
+
+.filtertitles{
+  font-weight: bold;
+  color: rgb(0, 89, 255);
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+@media screen and (max-width: 767px){
+  .filters{
+  padding-top: 5%;
+}
+}
+
+.paginationav{
+  padding-left: 90%;
+}
+
+.checked{
+  color: orange;
+  font-size: 4px;
+}
+
+.sortbuttons{
+  text-align: center;
+  padding-left: 1%;
+}
+
+.searchpagebar{
+  padding-left: 2%;
+  padding-top: 3%;
+}
+
+[data-toggle="collapse"] .fa:before {  
+  content: "\f139";
+}
+
+[data-toggle="collapse"].collapsed .fa:before {
+  content: "\f13a";
+}
+
+.head{
+  display: flex;
+}
+
+.loginheader{
+  background-color:#0275d8 ;
+}
+
+.links{
+  color: white;
+}
+
+.links :hover{
+ color: white;
+}
+
+#text{
+  color: #0275d8;
+}
+
+.login{
+  padding-top: 8%;
+  background-image: url("https://images.unsplash.com/photo-1516302350523-4c29d47b89e0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 835px;
+  background-position: center;
+}
+
+.logincard{
+  min-height: 350px;
+}
+
+.labels{
+  color: black;
+}
+
+.inner-addon { 
+  position: relative; 
+}
+
+/* style icon */
+.inner-addon .fa {
+position: absolute;
+padding: 10px;
+pointer-events: none;
+}
+
+/* align icon */
+.left-addon .fa { 
+  left:  0px;
+  color: black;
+}
+.right-addon .fa { right: 0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+
+.createaccount{
+  padding-top: 6%;
+  background-image: url("https://images.unsplash.com/photo-1605025169915-987049301f31?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 830px;
+  background-position: center;
+}
+
+.createaccounttextsuc{
+  color: #00ff00;
+}
+
+.createaccounttextfail{
+  color: #ff0000;
+  
+}
+
+.createaccounttextredir{
+  color: #0000EE;
+}
+
+.logouttext{
+  color: black;
+}
+
+
+/* Container needed to position the button. Adjust the width as needed */
+.container2 {
+  position: relative;
+  width: 100%;
+}
+
+/* Make the image responsive */
+.container2 img {
+  width: 100%;
+  height: auto;
+}
+
+.btn3:focus{
+  border: none;
+  outline: none;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container2 .btn3 {
+  position: absolute;
+  top: 17%;
+  left: 86%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color : transparent;
+  color: white;
+  font-size: 30px;
+  border: none;
+  border-radius: 0%;
+  cursor: pointer;
+  background-size: 30px;
+  outline: none;
+  
+
+}
+
+.container2 .btn3:hover {
+  background-color: red;
+}
+
+@media screen and (max-width: 1400px){
+  .container2 .btn3 {
+    position: absolute;
+    top: 22%;
+    left: 84%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color : transparent;
+    color: white;
+    font-size: 30px;
+    border: none;
+    border-radius: 0%;
+    cursor: pointer;
+    background-size: 30px;
+  
+  }
+}
+
+@media screen and (max-width: 1080px){
+  .container2 .btn3 {
+    position: absolute;
+    top: 26%;
+    left: 82%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color : transparent;
+    color: white;
+    font-size: 30px;
+    border: none;
+    border-radius: 0%;
+    cursor: pointer;
+    background-size: 30px;
+  
+  }
+}
+
+@media screen and (max-width: 575px){
+  .container2 .btn3 {
+    position: absolute;
+    top: 14%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color : transparent;
+    color: white;
+    font-size: 30px;
+    border: none;
+    border-radius: 0%;
+    cursor: pointer;
+    background-size: 30px;
+  
+  }
+}
+
+/* Container needed to position the button. Adjust the width as needed */
+.container3 {
+  position: relative;
+  width: 100%;
+}
+
+/* Make the image responsive */
+.container3 img {
+  width: 100%;
+  height: auto;
+}
+
+.btn4:focus{
+  border: none;
+  outline: none;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container3 .btn4 {
+  position: absolute;
+  top: 7%;
+  left: 92%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color : transparent;
+  color: white;
+  font-size: 30px;
+  border: none;
+  border-radius: 0%;
+  cursor: pointer;
+  background-size: 30px;
+  outline: none;
+  
+
+}
+
+.container3 .btn4:hover {
+  background-color: red;
+}
+
+@media screen and (max-width: 1400px){
+  .container3 .btn4 {
+    position: absolute;
+    top: 7%;
+    left: 93%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color : transparent;
+    color: white;
+    font-size: 30px;
+    border: none;
+    border-radius: 0%;
+    cursor: pointer;
+    background-size: 30px;
+  
+  }
+}
+
+@media screen and (max-width: 1080px){
+  .container3 .btn4 {
+    position: absolute;
+    top: 9%;
+    left: 92%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color : transparent;
+    color: white;
+    font-size: 30px;
+    border: none;
+    border-radius: 0%;
+    cursor: pointer;
+    background-size: 30px;
+  
+  }
+}
+
+@media screen and (max-width: 575px){
+  .container3 .btn4 {
+    position: absolute;
+    top: 14%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color : transparent;
+    color: white;
+    font-size: 30px;
+    border: none;
+    border-radius: 0%;
+    cursor: pointer;
+    background-size: 30px;
+  
+  }
+}
+
+.favcard{
+  padding-bottom: 5%;
+}
+
+.favcards{
+  background-color: cornsilk;
+}
+
+.favheader{
+  background-color: bisque;
+}
+
+.favtext{
+  color: black;
+  background-color: cornsilk;
+}
+
+.login2{
+  padding-top: 4%;
+  background-image: url("https://images.unsplash.com/photo-1508433957232-3107f5fd5995?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1364&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 700px;
+  background-position: center;
+}
+
+
+/* Container needed to position the button. Adjust the width as needed */
+.container5 {
+  position: relative;
+  width: 100%;
+}
+
+/* Make the image responsive */
+.container5 img {
+  width: 100%;
+  height: auto;
+}
+
+.btn5:focus{
+  border: none;
+  outline: none;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container5 .btn5 {
+  position: absolute;
+  top: 6%;
+  left: 92%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color : transparent;
+  color: white;
+  font-size: 30px;
+  border: none;
+  border-radius: 0%;
+  cursor: pointer;
+  background-size: 30px;
+  outline: none;
+  
+
+}
+
+.container5 .btn5:hover {
+  background-color: red;
+}
+
+@media screen and (max-width: 1400px){
+  .container5 .btn5 {
+    position: absolute;
+    top: 6%;
+    left: 88%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color : transparent;
+    color: white;
+    font-size: 30px;
+    border: none;
+    border-radius: 0%;
+    cursor: pointer;
+    background-size: 30px;
+  
+  }
+}
+
+@media screen and (max-width: 1080px){
+  .container5 .btn5 {
+    position: absolute;
+    top: 6%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color : transparent;
+    color: white;
+    font-size: 30px;
+    border: none;
+    border-radius: 0%;
+    cursor: pointer;
+    background-size: 30px;
+  
+  }
+}
+
+@media screen and (max-width: 575px){
+  .container5 .btn5 {
+    position: absolute;
+    top: 5%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color : transparent;
+    color: white;
+    font-size: 30px;
+    border: none;
+    border-radius: 0%;
+    cursor: pointer;
+    background-size: 30px;
+  
+  }
+}
+
+.listingbtn{
+  padding-top: 1%;
+}
+
+.footertext{
+  color: white;
+}
+
+.footertext:hover{
+  background-color:transparent;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
