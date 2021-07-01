@@ -1,0 +1,1 @@
+Hotel-Booking-Website and API to access the dataset used for the project. The website can be accesed using http://kcarson09.lampt.eeecs.qub.ac.uk/mybnb2/. API insturctions and full list of site functionalities can be found in the attached report in this repository.
